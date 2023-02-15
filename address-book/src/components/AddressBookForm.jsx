@@ -25,7 +25,7 @@ const AddressBookForm = (props) => {
   };
 
   return (
-    <>
+    <div>
       <input type="text" name="firstName" onChange={handle1Change} />
       <input type="text" name="lastName" onChange={handle2Change} />
       <input type="text" name="number" onChange={handle3Change} />
@@ -33,7 +33,7 @@ const AddressBookForm = (props) => {
       <button type="button" onClick={createContact}>
         Add
       </button>
-    </>
+    </div>
   );
 };
 
